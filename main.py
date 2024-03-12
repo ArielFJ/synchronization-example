@@ -7,7 +7,7 @@ class CuentaBancaria:
         self.bloqueo = threading.Lock()
 
     def realizar_transaccion(self, cantidad, tag=''):
-        # with self.bloqueo:
+        with self.bloqueo:
             saldo_anterior = self.saldo
             time.sleep(1)  # Simulación de una operación que lleva tiempo
             self.saldo += cantidad

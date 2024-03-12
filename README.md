@@ -1,5 +1,7 @@
 # Cuenta Bancaria Multihilo
 
+| [Enlace vídeo](https://youtu.be/kgurFDZRr8s)
+
 Este código en Python simula un escenario de operaciones bancarias concurrentes utilizando el módulo `threading` para gestionar hilos. La clase `CuentaBancaria` representa una cuenta bancaria con funciones para realizar transacciones de manera segura utilizando un objeto de bloqueo.
 
 ## Uso del Código
